@@ -6,10 +6,6 @@ body {
   font-size: 16px;
 }
 
-.content_container {
-  width: 70%;
-  margin: auto;
-}
 
 .btn_color_blue {
   border: 1px solid #1e90ff;
@@ -115,10 +111,6 @@ footer {
     font-size: 14px;
   }
 
-  .content_container {
-    width: 90%;
-  }
-
   .header_top ul {
     padding-left: 0;
   }
@@ -138,10 +130,6 @@ footer {
     font-size: 14px;
   }
 
-  .content_container {
-    width: 90%;
-  }
-
   .header_top ul {
     padding-left: 0;
   }
@@ -159,10 +147,6 @@ footer {
 
   body {
     font-size: 14px;
-  }
-
-  .content_container {
-    width: 90%;
   }
 
   .header_top ul {
