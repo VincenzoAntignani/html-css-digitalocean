@@ -1,0 +1,52 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+
+}
+
+header {
+  height: 400px;
+  background: grey;
+}
+
+main {
+  height: 400px;
+  background: lightgrey;
+}
+
+footer {
+  height: 200px;
+  background: blue;
+}
+
+
+
+
+
+
+
+
+
+/* XS */
+@media screen and (max-width: 767px)  {
+
+
+
+}
+
+
+/* SM */
+@media screen and (min-width: 768px) {
+
+
+
+}
+
+
+/* MD */
+@media screen and (max-width: 768px) {
+
+
+
+}
