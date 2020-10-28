@@ -1,9 +1,7 @@
 * {
-  font-family: 'Montserrat', sans-serif;
-  box-sizing: border-box;
-}
-body {
+  font-family: arial;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 
@@ -13,9 +11,14 @@ body {
   font-weight: 500;
 }
 
-header {
-  height: 400px;
-  background: grey;
+
+h1 {
+  margin-top: 70px;
+  padding-right: 40px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.3em;
+  color: white;
 }
 
 /* [class*="col-"] {
@@ -32,6 +35,12 @@ a {
 /* /Utilities */
 
 /* Header */
+header {
+  padding-bottom: 40px;
+  background: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .header_top {
   width: 100%;
   line-height: 70px;
@@ -77,11 +86,76 @@ a {
   color: #2571F2;
 }
 
+.header_bottom {
+  margin-top: 70px;
+  padding-top: 20px;
+}
+.header_bottom p {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.container_input {
+  margin: 50px auto;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 5px;
+}
+.container_input h3 {
+  font-weight: 700;
+  text-align: center;
+  padding: 0;
+  margin: 5px;
+}
+.container_input h3.color_blue {
+  color: #2971f2;
+}
+.container_input .input_text {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.container_input .btn_create_account {
+  background: #1e90ff;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+}
+.container_input .sign_google {
 
-
-
-
-
+    box-shadow: 1px 1px 0 lightgrey;
+    cursor: pointer;
+}
+.container_input .sign_google img {
+  width: 20px;
+}
+.input_text.sign_google {
+  position: relative;
+}
+.input_text.sign_google span.sign_with_google {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: 600;
+  color: grey;
+}
+span.sign_conditions {
+  display: block;
+  margin: 5px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+}
+span.sign_conditions a {
+  font-size: 11px;
+  text-decoration: underline;
+  color: blue;
+}
 
 
 
