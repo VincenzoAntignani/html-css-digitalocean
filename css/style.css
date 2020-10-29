@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-/* [class*="col-"] {
-  border: 1px solid red;
-  min-height: 20px;
-} */
+
 
 h1 {
   margin-top: 70px;
@@ -198,10 +195,7 @@ span.sign_conditions a {
 
 
 
-main {
-  /* padding: 20px 0;
-  background: lightgrey; */
-}
+/* Main */
 /* Loghi Aziende */
 .container_logo_companies {
   background: #F3F5F9;
@@ -391,7 +385,7 @@ a.change_img i{
 /* Development teams */
 .container_dev_teams {
   padding: 50px 0;
-  background: lightgrey;
+  background: #F3F5F9;
   text-align: center;
 }
 .container_dev_teams h2 {
@@ -442,21 +436,67 @@ a.change_img i{
 }
 /* /Development teams */
 
-
+/* Get started */
+.get_started_now {
+  padding: 30px 0;
+  text-align: center;
+  background: #2B71F2;
+}
+.get_started_now h2 {
+  color: white;
+}
+.get_started_now a {
+  padding: 10px 15px;
+  color: #2B71F2;
+  font-size: 18px;
+}
+.get_started_now a:hover {
+  color: #2B71F2;
+}
+/* /Get started */
+/* /Main */
 
 
 
 footer {
-  height: 200px;
-  background: pink;
+  padding: 70px 0;
+  min-height: 200px;
+  background: #020d29;
+  font-weight: 700;
+  color:  #838DA4;
+}
+footer img {
+  margin-bottom: 10px;
+}
+footer ul.nostyle_list li {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+}
+footer ul.nostyle_list li i {
+  font-size: 25px;
+}
+footer li a {
+  color: #838DA4;
+}
+
+.nostyle_list.vertical_list li {
+  display: block;
+  text-align: left;
+  padding: 5px 0;
+  width: 100%;
+}
+.nostyle_list.vertical_list li.title_list {
+  color: white;
 }
 
 
 
 
-
-
-
+ /* [class*="col-"] {
+  border: 1px solid red;
+  min-height: 20px;
+} */
 
 
 /* XS */
