@@ -287,32 +287,32 @@ main {
 /* Caratteristiche DigitalOcean */
 
 /* Designed for developers */
-.designed_for {
+.container_gallery {
   padding: 50px 0;
   background: #F3F5F9;
   text-align: center;
   margin-bottom: 50px;
 }
-.designed_for p {
+.container_gallery p {
   font-size: 22px;
   font-weight: 700;
   color: #838DA4;
 
 }
 
-.designed_for .gallery_img {
+.container_gallery .gallery_img {
   margin-top: 60px;
 }
-.designed_for .gallery_img span {
+.container_gallery .gallery_img span {
   display: inline-block;
 }
-.designed_for i {
+.container_gallery i {
   font-size: 50px;
   vertical-align: middle;
   margin: 0 20px;
   color: #565e74;
 }
-.designed_for img {
+.container_gallery img {
   margin-bottom: 20px;
   max-width: 550px;
   height: 400px;
@@ -325,12 +325,12 @@ a.change_img i{
   color: #46b3d2;
 }
 
-.designed_for .create_servers {
+.container_gallery .scroll_page {
   margin: auto;
   max-width: 550px;
   text-align: center;
 }
-.create_servers p {
+.scroll_page p {
   font-size: 16px;
   color: #4e546b;
 }
@@ -386,10 +386,61 @@ a.change_img i{
 .services_world i {
   margin-left: 20px;
 }
-
-
-
 /* Servizi nel mondo */
+
+/* Development teams */
+.container_dev_teams {
+  padding: 50px 0;
+  background: lightgrey;
+  text-align: center;
+}
+.container_dev_teams h2 {
+  margin-bottom: 50px;
+}
+.container_dev_teams_gallery {
+  width: 80%;
+  margin: 30px auto;
+}
+.descr_dev_teams {
+  display: inline-block;
+  float:left;
+  width: 70%;
+  height: 350px;
+  padding: 50px 15px;
+  background: white;
+  border-radius: 10px;
+}
+.angle_scroll {
+  float: left;
+  width: 15%;
+  height: 350px;
+  line-height: 350px;
+}
+.angle_scroll i {
+  font-size: 50px;
+  vertical-align: middle;
+}
+
+.descr_dev_teams img {
+  margin-bottom: 30px;
+  max-width: 200px;
+  height: 50px;
+}
+.descr_dev_teams p {
+  font-size: 20px;
+}
+.descr_dev_teams span.founder {
+  font-size: 14px;
+}
+.descr_dev_teams a {
+  display: block;
+  margin-top: 30px;
+  font-weight: 700;
+}
+.descr_dev_teams a i {
+  margin-left: 10px;
+}
+/* /Development teams */
 
 
 
@@ -458,14 +509,15 @@ footer {
 
 
   /* Designed for developers */
-  .designed_for p {
+  .container_container_gallery p {
     padding: 0 50px;
   }
-  .designed_for img {
+  .container_container_gallery img {
     margin-bottom: 20px;
     max-width: 400px;
     height: 250px;
   }
+
 
 
 }
@@ -488,7 +540,7 @@ footer {
   }
 
   /* Designed for developers */
-  .designed_for img {
+  .container_container_gallery img {
     margin-bottom: 20px;
     max-width: 450px;
     height: 350px;
