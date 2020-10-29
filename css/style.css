@@ -41,8 +41,8 @@ h2, h3, h4 {
   font-weight: 700;
 }
 
-/*
-[class*="col-"] {
+
+/* [class*="col-"] {
   border: 1px solid red;
   min-height: 50px;
 } */
@@ -305,7 +305,6 @@ main {
   height: 400px;
   line-height: 400px;
 }
-
 a.change_img i{
   font-size: 12px;
   margin: 0;
@@ -322,10 +321,34 @@ a.change_img i{
   font-size: 16px;
   color: #4e546b;
 }
-
 /* /Designed for developers */
 
+/* Features di cui hai bisogno */
+.features_need {
+  padding-top: 10px;
+  padding-bottom: 70px;
+  background: white;
+}
+.features_need h2 {
+  margin-bottom: 40px;
+}
+.features_need img {
+  width: 60px;
+}
+.features_need h4 {
+  margin: 15px 0;
+}
+.features_need a {
+  display: block;
+  margin-bottom: 25px;
+}
+.features_need i {
+  margin-left: 10px;
+}
 
+
+
+/* /Features di cui hai bisogno */
 
 
 
