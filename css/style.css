@@ -4,25 +4,10 @@
   box-sizing: border-box;
 }
 
-.clear_fix {
-  content:"";
-  display: table;
-  clear: both;
-}
-
-.wrapper_80 {
-  width: 80%;
-  margin: 0 auto;
-  padding: 15px 0;
-}
-
-
-
-.btn_color_blue {
-  border: 1px solid #1e90ff;
-  color: #1e90ff;
-  font-weight: 500;
-}
+/* [class*="col-"] {
+  border: 1px solid red;
+  min-height: 20px;
+} */
 
 h1 {
   margin-top: 70px;
@@ -41,11 +26,39 @@ h2, h3, h4 {
   font-weight: 700;
 }
 
+.clear_fix {
+  content:"";
+  display: table;
+  clear: both;
+}
 
-/* [class*="col-"] {
-  border: 1px solid red;
-  min-height: 50px;
-} */
+.wrapper_80 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.btn_color_blue {
+  border: 1px solid #1e90ff;
+  color: #1e90ff;
+  font-weight: 500;
+}
+
+.margin_bottom {
+  margin-bottom: 50px;
+}
+
+.padding_10 {
+  padding: 10px;
+}
+
+.border_bottom {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 1px solid white;
+}
+
+
 
 ul.nostyle_list {
   list-style: none;
@@ -345,10 +358,38 @@ a.change_img i{
 .features_need i {
   margin-left: 10px;
 }
-
-
-
 /* /Features di cui hai bisogno */
+
+/* Servizi nel mondo */
+.services_world {
+  padding: 50px 0 70px 0;
+  background: #3074f0;
+  color: white;
+}
+.services_world h2 {
+  color: white;
+}
+.services_world span {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.services_world span.city_name {
+  color: #bbbbbd;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: none;
+}
+.services_world a {
+  font-size: 14px;
+  color: #28d5cb;
+}
+.services_world i {
+  margin-left: 20px;
+}
+
+
+
+/* Servizi nel mondo */
 
 
 
@@ -356,7 +397,7 @@ a.change_img i{
 
 footer {
   height: 200px;
-  background: blue;
+  background: pink;
 }
 
 
@@ -425,6 +466,7 @@ footer {
     max-width: 400px;
     height: 250px;
   }
+
 
 }
 
