@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 h1 {
   margin-top: 70px;
   padding-right: 80px;
@@ -55,22 +53,14 @@ h2, h3, h4 {
   border-bottom: 1px solid white;
 }
 
-.angle_scroll {
-  float: left;
-  width: 15%;
-}
-
-
 .introductory_text {
   margin-bottom: 70px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
   color: #838DA4;
   text-align: center;
 }
-
-
 
 ul.nostyle_list {
   list-style: none;
@@ -85,12 +75,6 @@ a:hover {
 /* /Utilities */
 
 /* Header */
-header {
-  padding-bottom: 40px;
-  background: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .header_top {
   width: 100%;
   line-height: 70px;
@@ -138,6 +122,8 @@ header {
 }
 
 .header_bottom {
+  background: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+  background-size: cover;
   margin-top: 70px;
   padding-top: 20px;
 }
@@ -175,24 +161,21 @@ header {
   font-weight: 700;
 }
 .container_input .sign_google {
-
     box-shadow: 1px 1px 0 lightgrey;
     cursor: pointer;
 }
-.container_input .sign_google img {
-  width: 20px;
-}
 .input_text.sign_google {
   position: relative;
+  text-align: center;
 }
-.input_text.sign_google span.sign_with_google {
+.input_text.sign_google img {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 10px;
+  width: 20px;
+}
+.input_text.sign_google .sign_with_google {
   font-size: 14px;
-  font-weight: 600;
-  color: grey;
+  font-weight: 700;
 }
 span.sign_conditions {
   display: block;
@@ -207,9 +190,6 @@ span.sign_conditions a {
   text-decoration: underline;
   color: blue;
 }
-
-
-
 
 /* Main */
 /* Loghi Aziende */
@@ -297,26 +277,23 @@ span.sign_conditions a {
 }
 .container_design_for_dev img {
   width: 100%;
-  max-height: 500px;
+  max-height: 370;
 }
 .angle_scroll_page_site {
-  height: 500px;
-  line-height: 500px;
+  height: 370px;
+  line-height: 370px;
 }
 .angle_scroll_page_site a i{
   font-size: 50px;
   vertical-align: middle;
 }
 p#create_compute_servers {
-  margin-top: 10px;
+  margin-top: 30px;
   color: #0e2150;
   font-weight: 700;
 }
 
-
-
-
-.container_gallery .scroll_page {
+.container_design_for_dev .scroll_page {
   margin: auto;
   max-width: 550px;
   text-align: center;
@@ -392,30 +369,30 @@ p#create_compute_servers {
   width: 80%;
   margin: 30px auto;
 }
+
 .descr_dev_teams {
-  display: inline-block;
-  float:left;
-  width: 70%;
-  height: 350px;
-  padding: 50px 15px;
+  margin: 30px 0;
+  padding: 50px 10px;
+  min-height: 330px;
   background: white;
   border-radius: 10px;
+  color: #0e2150;
 }
-
-.angle_scroll.angle_scroll_dev_teams {
-  height: 350px;
-  line-height: 350px;
+.descr_dev_teams img {
+  margin-bottom: 30px;
+  max-width: 250px;
+  height: 40px;
 }
-.angle_scroll i {
+.angle_scroll_dev_teams {
+  margin: 30px 0;
+  height: 330px;
+  line-height: 330px;
+}
+.angle_scroll_dev_teams i {
   font-size: 50px;
   vertical-align: middle;
 }
 
-.descr_dev_teams img {
-  margin-bottom: 30px;
-  max-width: 200px;
-  height: 40px;
-}
 .descr_dev_teams p {
   font-size: 20px;
 }
@@ -496,7 +473,7 @@ footer li a {
 
 
 /* XS */
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 767px) and (max-width: 767px)  {
 
   body {
     font-size: 14px;
@@ -511,8 +488,6 @@ footer li a {
     width: 100%;
     float:left;
   }
-
-
 
   /* Main */
   /* Loghi Aziende */
@@ -553,14 +528,29 @@ footer li a {
     margin-top: 50px;
   }
 
+  /* Development teams */
+  .descr_dev_teams {
+    max-width: 50%;
+    margin: 30px auto;
+
+  }
+
 }
 
 
 /* SM */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px){
 
   body {
     font-size: 14px;
+  }
+
+  h1 {
+    margin-top: 70px;
+    padding-right: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
   }
 
   /* Header */
@@ -568,17 +558,34 @@ footer li a {
     padding-left: 0;
   }
 
+  /* .input_text.sign_google span.sign_with_google {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: 600;
+    color: grey;
+  } */
+
   /* Main */
   /* Designed for developers */
   .container_design_for_dev img {
     width: 70%;
   }
 
+  /* Development teams */
+  .descr_dev_teams {
+    max-width: 50%;
+    margin: 30px auto;
+  }
+
+
 }
 
 
 /* MD */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1199px){
 
   body {
     font-size: 14px;
@@ -594,8 +601,30 @@ footer li a {
     float:left;
   }
 
+  /* Main */
+  /* Designed for developers */
+  .container_design_for_dev img {
+    width: 100%;
+    min-height: 330px;
+  }
+  .angle_scroll_page_site {
+    height: 330px;
+    line-height: 330px;
+  }
 
-
-
+  /* Development teams */
+  /* .descr_dev_teams {
+    margin: 30px 0;
+    padding: 50px 10px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    color: #0e2150;
+  }
+  .angle_scroll_dev_teams {
+    margin: 30px 0;
+    height: 400px;
+    line-height: 400px;
+  } */
 
 }
