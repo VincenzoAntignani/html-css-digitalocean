@@ -377,6 +377,7 @@ p#create_compute_servers {
   background: white;
   border-radius: 10px;
   color: #0e2150;
+  overflow: hidden;
 }
 .descr_dev_teams img {
   margin-bottom: 30px;
