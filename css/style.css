@@ -86,11 +86,9 @@ a:hover {
   font-weight: 500;
 }
 .header_top img{
-  display: inline-block;
   width: 200px;
 }
 .header_top ul {
-  display: inline-block;
   float: right;
   height: 70px;
   margin-bottom: 0;
@@ -110,7 +108,6 @@ a:hover {
 }
 .header_top li:hover a {
   color: #2D72F2;
-  text-decoration: none;
 }
 .header_top a.btn {
   color: #1e90ff;
@@ -208,7 +205,6 @@ span.sign_conditions a {
   color: grey;
 }
 .container_logo_companies img {
-  display: inline-block;
   height: 150px;
   width: calc(100% / 2 - 5px);
   padding: 10px;
@@ -224,9 +220,6 @@ span.sign_conditions a {
 /* /Loghi Aziende */
 
 /* Caratteristiche DigitalOcean */
-.wrapper_80 .container_list_features {
-  width: 30%;
-}
 .container_features {
   background: white;
   padding: 60px 0;
@@ -237,6 +230,7 @@ span.sign_conditions a {
 }
 .wrapper_80 .container_list_features {
   float: left;
+  width: 30%;
   border-left: 1px solid grey;
 }
 .container_list_features li {
@@ -434,7 +428,6 @@ p#create_compute_servers {
 /* Footer */
 footer {
   padding: 70px 0;
-  min-height: 200px;
   background: #020d29;
   font-weight: 700;
   color:  #838DA4;
@@ -603,16 +596,6 @@ footer li a {
     padding-left: 0;
   }
 
-  /* .input_text.sign_google span.sign_with_google {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 12px;
-    font-weight: 600;
-    color: grey;
-  } */
-
   /* Main */
   /* Designed for developers */
   .container_design_for_dev img {
@@ -631,10 +614,6 @@ footer li a {
 
 /* MD */
 @media screen and (min-width: 992px) and (max-width: 1199px){
-
-  body {
-    font-size: 14px;
-  }
 
   /* Header */
   .header_top ul {
@@ -656,20 +635,5 @@ footer li a {
     height: 330px;
     line-height: 330px;
   }
-
-  /* Development teams */
-  /* .descr_dev_teams {
-    margin: 30px 0;
-    padding: 50px 10px;
-    height: 400px;
-    background: white;
-    border-radius: 10px;
-    color: #0e2150;
-  }
-  .angle_scroll_dev_teams {
-    margin: 30px 0;
-    height: 400px;
-    line-height: 400px;
-  } */
 
 }
